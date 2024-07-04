@@ -1,7 +1,7 @@
 # CSS-Basic-Project
 ![Screenshot_20240704_142307 - Copy](https://github.com/nihilkrishnan/CSS-Basic-Project/assets/118120621/53b56cd4-3178-4f10-8db6-bce0d9cc1a0a)
 
-![Screenshot_20240704_142307](https://github.com/nihilkrishnan/CSS-Basic-Project/assets/118120621/ffa474bb-92f3-4988-bd59-9d50da966ceb)
+
 
 
 
