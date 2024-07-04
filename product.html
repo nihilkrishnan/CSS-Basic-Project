@@ -1,87 +1,73 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #000;
-    color: #fff;
-}
-
-header {
-    background-color: #000;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li {
-    margin: 0 15px;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.nav-links .active {
-    color: #ff0000;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ff0000;
-}
-
-.search-bar {
-    display: flex;
-}
-
-.search-bar input {
-    padding: 5px;
-    font-size: 16px;
-}
-
-.search-bar button {
-    padding: 6px 10px;
-    background-color: #ff0000;
-    border: none;
-    cursor: pointer;
-    color: #fff;
-}
-
-.products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.product-card {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-}
-
-.product-card h2 {
-    color: #ff0000;
-    margin-bottom: 10px;
-}
-
-footer {
-    background-color: #ff0000;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROOP TECH - Products</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ROOPTECH</div>
+            <ul class="nav-links">
+                <li><a href="01.html">HOME</a></li>
+                <li><a href="02.html" class="active">PRODUCTS</a></li>
+                <li><a href="03.html">PEOPLE</a></li>
+                <li><a href="04.html">CONTACT</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Enter to Search">
+                <button>Search</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="products-grid">
+            <div class="product-card">
+                <h2>C++</h2>
+                <p>Efficiency Redefined: Harnessing the Power of C++ for Next-Level Development</p>
+            </div>
+            <div class="product-card">
+                <h2>C</h2>
+                <p>Crafting Performance: Where Precision Meets C Programming.</p>
+            </div>
+            <div class="product-card">
+                <h2>JAVASCRIPT</h2>
+                <p>Scripting Success: Unleashing the Power of JavaScript.</p>
+            </div>
+            <div class="product-card">
+                <h2>PHP</h2>
+                <p>PHP is a server side scripting language that is embedded in HTML.</p>
+            </div>
+            <div class="product-card">
+                <h2>PYTHON</h2>
+                <p>Unlocking Innovation: Python Paving the Way to Progress.</p>
+            </div>
+            <div class="product-card">
+                <h2>SQL</h2>
+                <p>SQL is a standard language for accessing and manipulating databases.</p>
+            </div>
+            <div class="product-card">
+                <h2>SHELL</h2>
+                <p>Shell can be accessed by users using a command line interface.</p>
+            </div>
+            <div class="product-card">
+                <h2>RUBY</h2>
+                <p>Ruby: Where Simplicity Meets Power in Programming.</p>
+            </div>
+            <div class="product-card">
+                <h2>TYPESCRIPT</h2>
+                <p>Empower Your Code: Embrace the Future with TypeScript.</p>
+            </div>
+            <div class="product-card">
+                <h2>F#</h2>
+                <p>F# is an Open-source programming language with a lot of features.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>DESIGNED AND DEVELOPED BY NIHIL  (212221223003)</p>
+    </footer>
+</body>
+</html>
